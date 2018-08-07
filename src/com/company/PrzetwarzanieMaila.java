@@ -12,10 +12,8 @@ public class PrzetwarzanieMaila {
     private String poleString = "";
 
     private boolean sprawdzAdres(String adres) {
-        String customerEmail = adres;
-
         Pattern p = Pattern.compile(".+@.+\\.[a-z]+");
-        Matcher m = p.matcher(customerEmail);
+        Matcher m = p.matcher(adres);
 
         boolean matchFound = m.matches();
         if (!matchFound) {
