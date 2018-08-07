@@ -1,6 +1,6 @@
 Zadania domowe przewidziane na okres 06.08 – 11. 08
 
-Zadanie1
+ZADANIE 1
 
 Zadanie będzie polegało na przygotowaniu aplikacji do wysyłki maili. W zadaniu należy
 przygotować program do wysyłki maili. Co powinno się w nim znaleźć:
@@ -30,7 +30,8 @@ Aplikacja ma być tak zaprojektowana abyśmy mogli podpiąć każdy inny interfe
 będzie odpowiadał za zbieranie żądań wysyłki maili.
 Ważne: Pamiętajcie, że na razie w zadaniu nie wymagam wysyłki maili.
 
-Zadanie 2
+ZADANIE 2
+
 Zadanie polega na stworzeniu sieci komisów samochodowych. Powinny znaleźć się takie
 klasy:
 - Samochód, będzie klasą abstrakcyjną - zawierające podstawowe dane o samochodzie
