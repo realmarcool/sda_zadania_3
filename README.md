@@ -33,22 +33,18 @@ Ważne: Pamiętajcie, że na razie w zadaniu nie wymagam wysyłki maili.
 Zadanie 2
 Zadanie polega na stworzeniu sieci komisów samochodowych. Powinny znaleźć się takie
 klasy:
-● Samochód, będzie klasą abstrakcyjną - zawierające podstawowe dane o
-samochodzie
-● Komis - klasa opisująca dany komis: nazwa komisu, adres komisu, oraz lista
-wszystkich samochodów.
-● Enum z modelami danej marki np. Audi będzie mieć modele: Q3, A7, Q5 itp.
-● Klasę Audi, BMW, które będą dziedziczyć po klasie Samochód i będą posiadać pole
-typu Enum danego modelu.
+- Samochód, będzie klasą abstrakcyjną - zawierające podstawowe dane o samochodzie
+- Komis - klasa opisująca dany komis: nazwa komisu, adres komisu, oraz lista wszystkich samochodów.
+- Enum z modelami danej marki np. Audi będzie mieć modele: Q3, A7, Q5 itp.
+- Klasę Audi, BMW, które będą dziedziczyć po klasie Samochód i będą posiadać pole typu Enum danego modelu.
 
 Do wykonania:
-● Stwórzcie 20 obiektów różnych marek samochodów(oczywiście z różnymi modelami)
-● Stwórzcie 2 obiekty klasy Komis i przydzielcie tym Komisom samochody, które
-wcześniej stworzyliście.(najlepiej aby samochody zostały dodane randomowo do
-Komisu)
-● Stwórzcie listę, która będzie zawiera komisy. Dodajcie te 2 komisy do listy.
-● Na podstawie powyższej listy stwórzcie Map, która będzie zawierała:
-○ Jako klucz - nazwę marki samochodu
-○ Jako dane - listę wszystkich samochodów, które są tej marki
-Przykład: Map<String, List<Samochod> map = new HashMap<>();
+- Stwórzcie 20 obiektów różnych marek samochodów(oczywiście z różnymi modelami)
+- Stwórzcie 2 obiekty klasy Komis i przydzielcie tym Komisom samochody, które wcześniej stworzyliście.(najlepiej aby samochody zostały dodane randomowo do Komisu)
+- Stwórzcie listę, która będzie zawiera komisy. Dodajcie te 2 komisy do listy.
+- Na podstawie powyższej listy stwórzcie Map, która będzie zawierała:
+  - Jako klucz - nazwę marki samochodu
+  - Jako dane - listę wszystkich samochodów, które są tej marki
+  Przykład: Map<String, List<Samochod> map = new HashMap<>();
+  
 Klasa Komis została stworzona celowo aby utrudnić wam zadanie z tworzeniem Map ;)
