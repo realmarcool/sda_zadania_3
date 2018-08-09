@@ -17,6 +17,7 @@ public class Main {
                 break;
             case 2:
                 // tu bedzie komis
+                Audi audi1 = new Audi("Audi", "2000", Marki.A1);
 
 
                 break;
