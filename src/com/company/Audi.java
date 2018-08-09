@@ -1,10 +1,15 @@
 package com.company;
 
 public class Audi extends Samochod {
-    private Marki model;
+    private Model model;
 
-    public Audi(String marka, String pojemnosc, Marki model) {
-        super(marka, pojemnosc);
+    public Audi(Marki marka, Model model, String pojemnosc, RodzajSilnika silnik) {
+        super(marka, pojemnosc, silnik);
         this.model = model;
+    }
+
+    @Override
+    public String toString() {
+        return getMarka() + " " + model + " " + getSilnik() + " " + getPojemnosc()+"cm3";
     }
 }

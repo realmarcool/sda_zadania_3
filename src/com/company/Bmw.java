@@ -1,10 +1,14 @@
 package com.company;
 
 public class Bmw extends Samochod {
-    private Marki model;
+    private Model model;
 
-    public Bmw(String marka, String pojemnosc, Marki model) {
-        super(marka, pojemnosc);
+    public Bmw(Marki marka, Model model, String pojemnosc, RodzajSilnika silnik) {
+        super(marka, pojemnosc, silnik);
         this.model = model;
+    }
+    @Override
+    public String toString() {
+        return getMarka() + " " + model + " " + getSilnik() + " " + getPojemnosc()+"cm3";
     }
 }
